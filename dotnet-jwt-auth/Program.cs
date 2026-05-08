@@ -13,8 +13,10 @@ builder.Services.AddDbContext<dotnet_jwt_auth.Data.AppDbContext>(options =>
 );
 
 builder.Services.AddIdentity<ApplicationUser, IdentityRole>
-(
-).AddEntityFrameworkStores<dotnet_jwt_auth.Data.AppDbContext>()
+(options =>
+{
+    options.User.RequireUniqueEmail = true;
+}).AddEntityFrameworkStores<dotnet_jwt_auth.Data.AppDbContext>()
 .AddDefaultTokenProviders();
 
 // Add services to the container.

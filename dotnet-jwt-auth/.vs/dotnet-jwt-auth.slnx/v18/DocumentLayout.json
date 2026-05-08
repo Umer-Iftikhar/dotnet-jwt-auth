@@ -3,16 +3,31 @@
   "WorkspaceRootPath": "D:\\project\\authentication\\dotnet-jwt-auth\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6DA49A11-F9C7-4EBC-BBE9-4FA4358F17F5}|dotnet-jwt-auth.csproj|d:\\project\\authentication\\dotnet-jwt-auth\\dotnet-jwt-auth.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{6DA49A11-F9C7-4EBC-BBE9-4FA4358F17F5}|dotnet-jwt-auth.csproj|solutionrelative:dotnet-jwt-auth.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{16C8DB7F-B3E3-1C33-0664-E6E44FAA0F75}|dotnet-jwt-auth.csproj|d:\\project\\authentication\\dotnet-jwt-auth\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16C8DB7F-B3E3-1C33-0664-E6E44FAA0F75}|dotnet-jwt-auth.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6DA49A11-F9C7-4EBC-BBE9-4FA4358F17F5}|dotnet-jwt-auth.csproj|d:\\project\\authentication\\dotnet-jwt-auth\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6DA49A11-F9C7-4EBC-BBE9-4FA4358F17F5}|dotnet-jwt-auth.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{16C8DB7F-B3E3-1C33-0664-E6E44FAA0F75}|dotnet-jwt-auth.csproj|d:\\project\\authentication\\dotnet-jwt-auth\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16C8DB7F-B3E3-1C33-0664-E6E44FAA0F75}|dotnet-jwt-auth.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6DA49A11-F9C7-4EBC-BBE9-4FA4358F17F5}|dotnet-jwt-auth.csproj|d:\\project\\authentication\\dotnet-jwt-auth\\dotnet-jwt-auth.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{6DA49A11-F9C7-4EBC-BBE9-4FA4358F17F5}|dotnet-jwt-auth.csproj|solutionrelative:dotnet-jwt-auth.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+      "AbsoluteMoniker": "D:0:0:{16C8DB7F-B3E3-1C33-0664-E6E44FAA0F75}|dotnet-jwt-auth.csproj|d:\\project\\authentication\\dotnet-jwt-auth\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16C8DB7F-B3E3-1C33-0664-E6E44FAA0F75}|dotnet-jwt-auth.csproj|solutionrelative:dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16C8DB7F-B3E3-1C33-0664-E6E44FAA0F75}|dotnet-jwt-auth.csproj|d:\\project\\authentication\\dotnet-jwt-auth\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16C8DB7F-B3E3-1C33-0664-E6E44FAA0F75}|dotnet-jwt-auth.csproj|solutionrelative:models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16C8DB7F-B3E3-1C33-0664-E6E44FAA0F75}|dotnet-jwt-auth.csproj|d:\\project\\authentication\\dotnet-jwt-auth\\models\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16C8DB7F-B3E3-1C33-0664-E6E44FAA0F75}|dotnet-jwt-auth.csproj|solutionrelative:models\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16C8DB7F-B3E3-1C33-0664-E6E44FAA0F75}|dotnet-jwt-auth.csproj|d:\\project\\authentication\\dotnet-jwt-auth\\dotnet-jwt-auth.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{16C8DB7F-B3E3-1C33-0664-E6E44FAA0F75}|dotnet-jwt-auth.csproj|solutionrelative:dotnet-jwt-auth.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\hp\\AppData\\Roaming\\Microsoft\\UserSecrets\\51f9c4e5-f2a5-4871-a54f-71cc1a677865\\secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,24 +37,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "dotnet-jwt-auth",
-              "DocumentMoniker": "D:\\project\\authentication\\dotnet-jwt-auth\\dotnet-jwt-auth.csproj",
-              "RelativeDocumentMoniker": "dotnet-jwt-auth.csproj",
-              "ToolTip": "D:\\project\\authentication\\dotnet-jwt-auth\\dotnet-jwt-auth.csproj",
-              "RelativeToolTip": "dotnet-jwt-auth.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-05-08T05:14:41.761Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -49,22 +51,85 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\project\\authentication\\dotnet-jwt-auth\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-08T04:42:07.634Z",
+              "WhenOpened": "2026-05-08T21:32:54.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RefreshToken.cs",
+              "DocumentMoniker": "D:\\project\\authentication\\dotnet-jwt-auth\\Models\\RefreshToken.cs",
+              "RelativeDocumentMoniker": "Models\\RefreshToken.cs",
+              "ToolTip": "D:\\project\\authentication\\dotnet-jwt-auth\\Models\\RefreshToken.cs",
+              "RelativeToolTip": "Models\\RefreshToken.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T21:10:25.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "D:\\project\\authentication\\dotnet-jwt-auth\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "Models\\ApplicationUser.cs",
+              "ToolTip": "D:\\project\\authentication\\dotnet-jwt-auth\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T21:10:23.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "dotnet-jwt-auth",
+              "DocumentMoniker": "D:\\project\\authentication\\dotnet-jwt-auth\\dotnet-jwt-auth.csproj",
+              "RelativeDocumentMoniker": "dotnet-jwt-auth.csproj",
+              "ToolTip": "D:\\project\\authentication\\dotnet-jwt-auth\\dotnet-jwt-auth.csproj",
+              "RelativeToolTip": "dotnet-jwt-auth.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-08T21:05:16.781Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "dotnet-jwt-auth.http",
-              "DocumentMoniker": "D:\\project\\authentication\\dotnet-jwt-auth\\dotnet-jwt-auth.http",
-              "RelativeDocumentMoniker": "dotnet-jwt-auth.http",
-              "ToolTip": "D:\\project\\authentication\\dotnet-jwt-auth\\dotnet-jwt-auth.http",
-              "RelativeToolTip": "dotnet-jwt-auth.http",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2026-05-08T04:28:51.742Z",
+              "Title": "RegisterDto.cs",
+              "DocumentMoniker": "D:\\project\\authentication\\dotnet-jwt-auth\\DTOs\\RegisterDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\RegisterDto.cs",
+              "ToolTip": "D:\\project\\authentication\\dotnet-jwt-auth\\DTOs\\RegisterDto.cs",
+              "RelativeToolTip": "DTOs\\RegisterDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T21:00:25.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\project\\authentication\\dotnet-jwt-auth\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "D:\\project\\authentication\\dotnet-jwt-auth\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T20:47:00.794Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "secrets.json",
+              "DocumentMoniker": "C:\\Users\\hp\\AppData\\Roaming\\Microsoft\\UserSecrets\\51f9c4e5-f2a5-4871-a54f-71cc1a677865\\secrets.json",
+              "ToolTip": "C:\\Users\\hp\\AppData\\Roaming\\Microsoft\\UserSecrets\\51f9c4e5-f2a5-4871-a54f-71cc1a677865\\secrets.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-08T11:48:01.151Z",
               "EditorCaption": ""
             }
           ]
