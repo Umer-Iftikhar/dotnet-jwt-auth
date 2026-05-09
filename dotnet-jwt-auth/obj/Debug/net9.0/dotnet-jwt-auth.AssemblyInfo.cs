@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("dotnet-jwt-auth")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3f057e1411048b9940e73138245f7253de90131c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+998e8af80d850a8919a11a194c703e8a23a49684")]
 [assembly: System.Reflection.AssemblyProductAttribute("dotnet-jwt-auth")]
 [assembly: System.Reflection.AssemblyTitleAttribute("dotnet-jwt-auth")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

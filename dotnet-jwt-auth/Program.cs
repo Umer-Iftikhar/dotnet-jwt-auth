@@ -12,12 +12,12 @@ builder.Services.AddDbContext<dotnet_jwt_auth.Data.AppDbContext>(options =>
     options.UseMySql(connectionString, serverVersion)
 );
 
-builder.Services.AddIdentity<ApplicationUser, IdentityRole>
-(options =>
+builder.Services.AddIdentity<ApplicationUser, IdentityRole> (options =>
 {
     options.User.RequireUniqueEmail = true;
-}).AddEntityFrameworkStores<dotnet_jwt_auth.Data.AppDbContext>()
-.AddDefaultTokenProviders();
+})
+    .AddEntityFrameworkStores<dotnet_jwt_auth.Data.AppDbContext>()
+    .AddDefaultTokenProviders();
 
 // Add services to the container.
 builder.Services.AddControllers();
@@ -25,6 +25,21 @@ builder.Services.AddControllers();
 builder.Services.AddOpenApi();
 
 var app = builder.Build();
+
+using(var scope = app.Services.CreateScope())
+{
+    var roleManager = scope.ServiceProvider
+        .GetRequiredService<RoleManager<IdentityRole>>();
+    String[] roles = { "User", "Admin" };
+
+    foreach(var role in roles)
+    {
+        if(!await roleManager.RoleExistsAsync(role))
+        {
+            await roleManager.CreateAsync(new IdentityRole(role));
+        }
+    }
+}
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

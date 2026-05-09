@@ -11,6 +11,10 @@
       "RelativeMoniker": "D:0:0:{16C8DB7F-B3E3-1C33-0664-E6E44FAA0F75}|dotnet-jwt-auth.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{16C8DB7F-B3E3-1C33-0664-E6E44FAA0F75}|dotnet-jwt-auth.csproj|d:\\project\\authentication\\dotnet-jwt-auth\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16C8DB7F-B3E3-1C33-0664-E6E44FAA0F75}|dotnet-jwt-auth.csproj|solutionrelative:dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{16C8DB7F-B3E3-1C33-0664-E6E44FAA0F75}|dotnet-jwt-auth.csproj|d:\\project\\authentication\\dotnet-jwt-auth\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{16C8DB7F-B3E3-1C33-0664-E6E44FAA0F75}|dotnet-jwt-auth.csproj|solutionrelative:dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -37,11 +41,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "D:\\project\\authentication\\dotnet-jwt-auth\\DTOs\\LoginDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\LoginDto.cs",
+              "ToolTip": "D:\\project\\authentication\\dotnet-jwt-auth\\DTOs\\LoginDto.cs",
+              "RelativeToolTip": "DTOs\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T09:42:57.055Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -51,14 +68,14 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\project\\authentication\\dotnet-jwt-auth\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAACQAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-08T21:32:54.29Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "RefreshToken.cs",
               "DocumentMoniker": "D:\\project\\authentication\\dotnet-jwt-auth\\Models\\RefreshToken.cs",
               "RelativeDocumentMoniker": "Models\\RefreshToken.cs",
@@ -71,7 +88,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ApplicationUser.cs",
               "DocumentMoniker": "D:\\project\\authentication\\dotnet-jwt-auth\\Models\\ApplicationUser.cs",
               "RelativeDocumentMoniker": "Models\\ApplicationUser.cs",
@@ -84,26 +101,25 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "dotnet-jwt-auth",
+              "DocumentIndex": 6,
+              "Title": "dotnet-jwt-auth.csproj",
               "DocumentMoniker": "D:\\project\\authentication\\dotnet-jwt-auth\\dotnet-jwt-auth.csproj",
               "RelativeDocumentMoniker": "dotnet-jwt-auth.csproj",
               "ToolTip": "D:\\project\\authentication\\dotnet-jwt-auth\\dotnet-jwt-auth.csproj",
               "RelativeToolTip": "dotnet-jwt-auth.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-05-08T21:05:16.781Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-08T21:05:16.781Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "RegisterDto.cs",
               "DocumentMoniker": "D:\\project\\authentication\\dotnet-jwt-auth\\DTOs\\RegisterDto.cs",
               "RelativeDocumentMoniker": "DTOs\\RegisterDto.cs",
               "ToolTip": "D:\\project\\authentication\\dotnet-jwt-auth\\DTOs\\RegisterDto.cs",
               "RelativeToolTip": "DTOs\\RegisterDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-08T21:00:25.451Z",
               "EditorCaption": ""
@@ -116,21 +132,20 @@
               "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
               "ToolTip": "D:\\project\\authentication\\dotnet-jwt-auth\\Controllers\\AccountController.cs",
               "RelativeToolTip": "Controllers\\AccountController.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAowCEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAwBQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-08T20:47:00.794Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "secrets.json",
               "DocumentMoniker": "C:\\Users\\hp\\AppData\\Roaming\\Microsoft\\UserSecrets\\51f9c4e5-f2a5-4871-a54f-71cc1a677865\\secrets.json",
               "ToolTip": "C:\\Users\\hp\\AppData\\Roaming\\Microsoft\\UserSecrets\\51f9c4e5-f2a5-4871-a54f-71cc1a677865\\secrets.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-05-08T11:48:01.151Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-08T11:48:01.151Z"
             }
           ]
         }

@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\project\\authentication\\dotnet-jwt-auth\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{16C8DB7F-B3E3-1C33-0664-E6E44FAA0F75}|dotnet-jwt-auth.csproj|d:\\project\\authentication\\dotnet-jwt-auth\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16C8DB7F-B3E3-1C33-0664-E6E44FAA0F75}|dotnet-jwt-auth.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{16C8DB7F-B3E3-1C33-0664-E6E44FAA0F75}|dotnet-jwt-auth.csproj|d:\\project\\authentication\\dotnet-jwt-auth\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{16C8DB7F-B3E3-1C33-0664-E6E44FAA0F75}|dotnet-jwt-auth.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16C8DB7F-B3E3-1C33-0664-E6E44FAA0F75}|dotnet-jwt-auth.csproj|d:\\project\\authentication\\dotnet-jwt-auth\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16C8DB7F-B3E3-1C33-0664-E6E44FAA0F75}|dotnet-jwt-auth.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{16C8DB7F-B3E3-1C33-0664-E6E44FAA0F75}|dotnet-jwt-auth.csproj|d:\\project\\authentication\\dotnet-jwt-auth\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -37,7 +37,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -45,13 +45,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\project\\authentication\\dotnet-jwt-auth\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\project\\authentication\\dotnet-jwt-auth\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-08T21:32:54.29Z",
               "EditorCaption": ""
@@ -110,13 +110,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "AccountController.cs",
               "DocumentMoniker": "D:\\project\\authentication\\dotnet-jwt-auth\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
               "ToolTip": "D:\\project\\authentication\\dotnet-jwt-auth\\Controllers\\AccountController.cs",
               "RelativeToolTip": "Controllers\\AccountController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowCEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-08T20:47:00.794Z",
               "EditorCaption": ""
