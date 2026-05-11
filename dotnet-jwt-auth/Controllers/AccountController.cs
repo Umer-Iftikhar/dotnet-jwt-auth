@@ -1,6 +1,7 @@
 ﻿using dotnet_jwt_auth.Data;
 using dotnet_jwt_auth.DTOs;
 using dotnet_jwt_auth.Models;
+using dotnet_jwt_auth.Services;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
@@ -10,13 +11,13 @@ namespace dotnet_jwt_auth.Controllers
     [ApiController]
     public class AccountController : ControllerBase
     {
+        private readonly TokenService _tokenService;
         private readonly UserManager<ApplicationUser> _userManager;
-        private readonly RoleManager<IdentityRole> _roleManager;
 
-        public AccountController ( UserManager<ApplicationUser> userManager, RoleManager<IdentityRole> roleManager)
+        public AccountController ( UserManager<ApplicationUser> userManager, TokenService tokenService)
         {
            _userManager = userManager;
-            _roleManager = roleManager;
+            _tokenService = tokenService;
         }
 
         [HttpPost("register")]
@@ -57,8 +58,9 @@ namespace dotnet_jwt_auth.Controllers
             }
 
             var roles = await _userManager.GetRolesAsync(user);
+            var token = _tokenService.GenerateToken(user, roles);
 
-            return Ok(new { id = user.Id, email = user.Email, roles = roles });
+            return Ok(token);
         }
     }
 }
