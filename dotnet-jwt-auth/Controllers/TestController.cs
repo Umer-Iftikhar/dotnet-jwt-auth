@@ -42,5 +42,27 @@ namespace dotnet_jwt_auth.Controllers
 
             return Ok(userInfo);
         }
+
+        [HttpGet("admin")]
+        [Authorize(Policy = "AdminOnly")]
+        public IActionResult GetAdminData()
+        {
+            return Ok(new
+            {
+                Message = "Hello Admin! You have accessed a restricted endpoint.",
+                Timestamp = DateTime.UtcNow
+            });
+        }
+
+        [HttpGet("user")]
+        [Authorize(Policy = "UserOrAdmin")]
+        public IActionResult GetUserData()
+        {
+            return Ok(new
+            {
+                Message = "Hello! This endpoint is accessible by both Admins and Users.",
+                Timestamp = DateTime.UtcNow
+            });
+        }
     }
 }

@@ -1,3 +1,4 @@
+using dotnet_jwt_auth.Data;
 using dotnet_jwt_auth.Models;
 using dotnet_jwt_auth.Services;
 using dotnet_jwt_auth.Settings;
@@ -49,32 +50,27 @@ builder.Services.AddAuthentication(options =>
 
 builder.Services.AddScoped<TokenService>();
 
+
 // Add services to the container.
 builder.Services.AddControllers();
+
+builder.Services.AddAuthorization(options =>
+{
+    options.AddPolicy("AdminOnly", policy => policy.RequireRole("Admin"));
+    options.AddPolicy("UserOrAdmin", policy => policy.RequireRole("Admin", "User"));
+});
+
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
 
 var app = builder.Build();
 
-using(var scope = app.Services.CreateScope())
-{
-    var roleManager = scope.ServiceProvider
-        .GetRequiredService<RoleManager<IdentityRole>>();
-    String[] roles = { "User", "Admin" };
-
-    foreach(var role in roles)
-    {
-        if(!await roleManager.RoleExistsAsync(role))
-        {
-            await roleManager.CreateAsync(new IdentityRole(role));
-        }
-    }
-}
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
+    await DatabaseSeeder.SeedAsync(app.Services);
 }
 
 app.UseAuthentication(); 
